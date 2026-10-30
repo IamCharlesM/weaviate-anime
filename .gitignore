@@ -11,7 +11,6 @@ node_modules
 public/images
 yarn.lock
 
-temp_auto_push.bat
 # Logs
 logs
 *.log
@@ -22,8 +21,5 @@ logs
 .idea
 
 # Local env files
-.env
-.env.*
 !.env.example
-.gitignore
-branch_structure.json
+config.bat

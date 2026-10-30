@@ -3,8 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node api.js && nuxt build",
-    "dev": "node api.js && nuxt dev",
+    "build": "node init && nuxt build",
+    "dev": "node init && nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
@@ -21,6 +21,7 @@
     "csv-parse": "^5.5.3",
     "dotenv": "^16.4.5",
     "graphql": "^16.8.1",
+    "node-fetch": "^3.3.2",
     "rimraf": "^5.0.5",
     "typescript": "^5.3.3",
     "weaviate-client": "^3.0.3",
